@@ -1,0 +1,3 @@
+class Service
+  (@baseURL, @defaultScript, useSecure, @allowInitiateSession, @secretKey, client, clientRevision) ->
+    @baseURLSecure = baseURL.replace /^http/, 'https'

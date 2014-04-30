@@ -1,0 +1,21 @@
+{
+  "name": "GroovesharkAPI",
+  "version": "0.0.0",
+  "description": "Grooveshark as you go",
+  "main": "index.js",
+  "dependencies": {
+    "q": "~1.0.1",
+    "request": "~2.34.0",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": "",
+  "keywords": [
+    "grooveshark"
+  ],
+  "author": "RixTox",
+  "license": "MIT"
+}
