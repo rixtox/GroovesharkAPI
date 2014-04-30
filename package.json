@@ -2,7 +2,17 @@
   "name": "GroovesharkAPI",
   "version": "0.0.0",
   "description": "Grooveshark as you go",
-  "main": "index.js",
+  "main": "index.html",
+  "window": {
+    "fullscreen": false,
+    "show": false,
+    "toolbar": false,
+    "position": "center",
+    "width": 800,
+    "height": 600,
+    "min_width": 800,
+    "min_height": 600
+  },
   "dependencies": {
     "q": "~1.0.1",
     "request": "~2.34.0",
